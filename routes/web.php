@@ -1,0 +1,1 @@
+Route::patch('/admin/cars/{car}/status', [App\Http\Controllers\Admin\CarController::class, 'updateStatus'])->name('admin.cars.update-status'); 
